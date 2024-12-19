@@ -3,16 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Resume Website</title>
-    <meta name="description" content="Your Professional Resume">
-<meta name="keywords" content="Your Name, Web Developer, Portfolio">
+    <title>Modern Resume</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Navigation -->
     <header>
+        <h1>Your Name</h1>
+        <p>Web Developer | Designer | Freelancer</p>
         <nav>
-            <h1>My Name</h1>
             <ul>
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
@@ -22,44 +20,48 @@
         </nav>
     </header>
 
-    <!-- About Section -->
-        <section id="about">
-            <h2>About Me</h2>
-            <img src="Aboutme.jpeg" alt="Your Name" class="responsive-img">
-            <p>Welcome! I am [Your Name], a passionate [Your Profession].</p>
-        </section>
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="images/profile.jpg" alt="Your Name">
+        <p>Hello! I am a passionate web developer with experience in creating modern, responsive websites.</p>
+    </section>
 
-    <!-- Skills Section -->
     <section id="skills">
         <h2>Skills</h2>
         <ul>
             <li>HTML & CSS</li>
             <li>JavaScript</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>Python</li>
         </ul>
     </section>
 
-    <!-- Projects Section -->
     <section id="projects">
         <h2>Projects</h2>
-        <div>
-            <h3>Project 1</h3>
-            <p>Brief description about project 1.</p>
+        <div class="project">
+            <img src="images/project1.jpg" alt="Project 1">
+            <div class="project-details">
+                <h3>Project 1</h3>
+                <p>A description of your awesome project goes here.</p>
+            </div>
         </div>
-        <div>
-            <h3>Project 2</h3>
-            <p>Brief description about project 2.</p>
+        <div class="project">
+            <img src="images/project2.jpg" alt="Project 2">
+            <div class="project-details">
+                <h3>Project 2</h3>
+                <p>A description of another amazing project goes here.</p>
+            </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
     <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Email: rojasalvarezbruno@gmail.com</p>
-        <p>LinkedIn: <a href="" target=""></a></p>
+        <h2>Contact</h2>
+        <a href="mailto:youremail@example.com">Email Me</a>
     </section>
 
     <footer>
-        <p>&copy; 2024 Bruno Rojas-Alvarez. All Rights Reserved.</p>
+        &copy; 2024 Your Name. All Rights Reserved.
     </footer>
     <script src="script.js"></script>
 </body>
