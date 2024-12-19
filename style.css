@@ -184,7 +184,7 @@ footer {
     width: 100%; /* Image scales to fit the container width */
     max-width: 200px; /* Limits the size so it doesn't stretch too large */
     height: auto; /* Maintains the aspect ratio */
-    border-radius: 50%; /* Optional: makes the image circular */
+    border-radius: 25%; /* Optional: makes the image circular */
     display: block;
     margin: 1rem auto; /* Centers the image horizontally */
 }
