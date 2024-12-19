@@ -37,14 +37,6 @@ header nav ul li a {
     font-weight: bold;
 }
 
-.responsive-img {
-    width: 100%;
-    max-width: 200px;
-    height: auto;
-    border-radius: 25%;
-    display: block;
-    margin: 1rem auto;
-}
 
 section {
     margin: 2rem auto;
@@ -99,4 +91,13 @@ footer {
     section p {
         text-align: center;
     }
+}
+/* Make images responsive */
+.responsive-img {
+    width: 100%; /* Image scales to fit the container width */
+    max-width: 200px; /* Limits the size so it doesn't stretch too large */
+    height: auto; /* Maintains the aspect ratio */
+    border-radius: 20%; /* Optional: makes the image circular */
+    display: block;
+    margin: 1rem auto; /* Centers the image horizontally */
 }
