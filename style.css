@@ -41,7 +41,7 @@ header nav ul li a {
     width: 100%;
     max-width: 200px;
     height: auto;
-    border-radius: 75%;
+    border-radius: 25%;
     display: block;
     margin: 1rem auto;
 }
